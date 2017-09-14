@@ -1,0 +1,40 @@
+{
+  "description": "Statistics (HDFS)",
+  "url": "hdfs:///TechEd/HBD265/Solution/Statistics.parquet",
+  "metadata": {
+    "format": "PARQUET",
+    "columns": [
+      {
+        "name": "COUNTRY",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "HUMIDITY_MIN",
+        "datatype": "NUMERIC",
+        "precision": 28,
+        "scale": 8
+      },
+      {
+        "name": "HUMIDITY_MAX",
+        "datatype": "NUMERIC",
+        "precision": 28,
+        "scale": 8
+      },
+      {
+        "name": "TEMPERATURE_MIN",
+        "datatype": "NUMERIC",
+        "precision": 28,
+        "scale": 8
+      },
+      {
+        "name": "TEMPERATURE_MAX",
+        "datatype": "NUMERIC",
+        "precision": 28,
+        "scale": 8
+      }
+    ]
+  },
+  "destinationRef": {
+    "id": "HDFS"
+  }
+}

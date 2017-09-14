@@ -1,0 +1,25 @@
+{
+  "description": "Copy events",
+  "type": "FILE_OPERATION",
+  "definition": "",
+  "details": {
+    "fileOperation": {
+      "id": "COPY"
+    }
+  },
+  "input": [
+    {
+      "datasetRef": {
+        "id": "Events"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "CopiedEvents"
+      }
+    }
+  ]
+}

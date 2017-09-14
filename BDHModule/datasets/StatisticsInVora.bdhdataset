@@ -1,0 +1,44 @@
+{
+  "description": "Statistics (Vora)",
+  "url": "vora:///HBD265_SOLUTION_STATISTICS",
+  "metadata": {
+    "columns": [
+      {
+        "name": "COUNTRY",
+        "datatype": "CHARACTER",
+        "nullable": true
+      },
+      {
+        "name": "HUMIDITY_MIN",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 12,
+        "scale": 2
+      },
+      {
+        "name": "HUMIDITY_MAX",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 12,
+        "scale": 2
+      },
+      {
+        "name": "TEMPERATURE_MIN",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 12,
+        "scale": 2
+      },
+      {
+        "name": "TEMPERATURE_MAX",
+        "datatype": "NUMERIC",
+        "nullable": true,
+        "precision": 12,
+        "scale": 2
+      }
+    ]
+  },
+  "destinationRef": {
+    "id": "Catalog"
+  }
+}

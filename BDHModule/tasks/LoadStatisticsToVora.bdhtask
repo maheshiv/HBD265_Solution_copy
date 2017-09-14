@@ -1,0 +1,20 @@
+{
+  "description": "Load statistics to Vora",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/LoadStatisticsToVora.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "Statistics"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "StatisticsInVora"
+      }
+    }
+  ]
+}

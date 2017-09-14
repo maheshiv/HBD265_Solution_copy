@@ -1,0 +1,31 @@
+{
+  "description": "Customers (Vora)",
+  "url": "vora:///HBD265_CUSTOMERS",
+  "metadata": {
+    "columns": [
+      {
+        "name": "CUSTOMER",
+        "datatype": "NUMERIC",
+        "nullable": true
+      },
+      {
+        "name": "FIRST_NAME",
+        "datatype": "CHARACTER",
+        "nullable": true
+      },
+      {
+        "name": "LAST_NAME",
+        "datatype": "CHARACTER",
+        "nullable": true
+      },
+      {
+        "name": "COUNTRY",
+        "datatype": "CHARACTER",
+        "nullable": true
+      }
+    ]
+  },
+  "destinationRef": {
+    "id": "Catalog"
+  }
+}

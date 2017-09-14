@@ -1,0 +1,5 @@
+{
+  "description": "Vora Pipeline destination",
+  "system": "HBD265_SolutionVora",
+  "connection": "PIPELINE_DEFAULT"
+}

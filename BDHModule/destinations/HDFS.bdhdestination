@@ -1,0 +1,5 @@
+{
+  "description": "HDFS destination",
+  "system": "HBD265_SolutionVora",
+  "connection": "HDFS_DEFAULT"
+}

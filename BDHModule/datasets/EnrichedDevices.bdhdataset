@@ -1,0 +1,44 @@
+{
+  "description": "Enriched devices (HDFS)",
+  "url": "hdfs:///TechEd/HBD265/Solution/EnrichedDevices.csv",
+  "metadata": {
+    "format": "CSV",
+    "colDelimiter": ";",
+    "textDelimiter": "\"",
+    "header": true,
+    "columns": [
+      {
+        "name": "DEVICE",
+        "datatype": "CHARACTER",
+        "length": 32,
+        "nullable": false
+      },
+      {
+        "name": "TYPE",
+        "datatype": "CHARACTER",
+        "length": 7,
+        "nullable": false
+      },
+      {
+        "name": "COUNTRY",
+        "datatype": "CHARACTER",
+        "length": 2,
+        "nullable": true
+      },
+      {
+        "name": "CUSTOMER",
+        "datatype": "NUMERIC",
+        "nullable": false
+      },
+      {
+        "name": "TIME",
+        "datatype": "CHARACTER",
+        "length": 27,
+        "nullable": false
+      }
+    ]
+  },
+  "destinationRef": {
+    "id": "HDFS"
+  }
+}

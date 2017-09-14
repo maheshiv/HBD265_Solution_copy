@@ -1,0 +1,25 @@
+{
+  "description": "Calculate statistics",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/CalculateStatistics.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "CopiedEvents"
+      }
+    },
+    {
+      "datasetRef": {
+        "id": "EnrichedDevices"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "Statistics"
+      }
+    }
+  ]
+}

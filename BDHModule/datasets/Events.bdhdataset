@@ -1,0 +1,30 @@
+{
+  "description": "Events (HDFS)",
+  "url": "hdfs:///TechEd/HBD265/Events.parquet",
+  "metadata": {
+    "format": "PARQUET",
+    "columns": [
+      {
+        "name": "DEVICE",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "EVENT",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "TIME",
+        "datatype": "CHARACTER"
+      },
+      {
+        "name": "VALUE",
+        "datatype": "NUMERIC",
+        "precision": 28,
+        "scale": 8
+      }
+    ]
+  },
+  "destinationRef": {
+    "id": "HDFS"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Enrich devices",
+  "type": "FLOWGRAPH",
+  "definition": "implementation/EnrichDevices.bdhflowgraph",
+  "input": [
+    {
+      "datasetRef": {
+        "id": "Devices"
+      }
+    },
+    {
+      "datasetRef": {
+        "id": "Customers"
+      }
+    }
+  ],
+  "output": [
+    {
+      "mode": "OVERWRITE",
+      "datasetRef": {
+        "id": "EnrichedDevices"
+      }
+    }
+  ]
+}
